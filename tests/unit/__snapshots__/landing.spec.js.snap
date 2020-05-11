@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing regression test 1`] = `
+<div
+  class="leading"
+>
+  <div
+    class="leading-text"
+  >
+    A website about book catalogs.
+  </div>
+   
+  <button-stub
+    text="Start here"
+    to="Book"
+  />
+</div>
+`;

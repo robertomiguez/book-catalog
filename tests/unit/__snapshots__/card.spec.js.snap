@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card regression test 1`] = `
+<div>
+  <div
+    class="title"
+  >
+    card title
+  </div>
+   
+  <img
+    alt=""
+    height="200"
+    src="img.jpg"
+    width="150"
+  />
+   
+  <div
+    class="description"
+  >
+    blah
+  </div>
+</div>
+`;

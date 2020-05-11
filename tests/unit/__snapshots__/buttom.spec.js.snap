@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Buttom regression test 1`] = `
+<div>
+  <a
+    class="button"
+  >
+    
+		click
+	
+  </a>
+</div>
+`;
