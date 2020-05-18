@@ -6,7 +6,9 @@
         <Card 
           :title="book.fields.Name" 
           :img="book.fields['Cover Photo'][0].thumbnails.large.url" 
-          :description="book.fields.Synopsis"  />
+          :description="book.fields.Synopsis"  
+          :field1="book.fields.AuthorName[0]"
+        />
       </li>
     </ul>
   </div>

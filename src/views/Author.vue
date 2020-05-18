@@ -6,7 +6,9 @@
         <Card 
           :title="author.fields.Name" 
           :img="author.fields.Photos[0].thumbnails.large.url" 
-          :description="author.fields.Bio"  />
+          :description="author.fields.Bio"
+          :field1="author.fields.BooksName.toString()"
+        />
       </li>
     </ul>
   </div>

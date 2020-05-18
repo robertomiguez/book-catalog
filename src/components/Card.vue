@@ -9,6 +9,7 @@
           height=200
         />
         <div class=description>{{ description }}</div>
+        <div class=field1>{{ field1 }}</div>
     </div>
 </template>
 
@@ -27,6 +28,10 @@ export default {
     description: {
       type: String,
       required: true
+    },
+    field1: {
+      type: String,
+      required: true
     }
   }  
 }
@@ -42,6 +47,12 @@ export default {
 .description {
     height: 130px;
     padding-top: 10px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.field1 {
+    height: 30px;
+    padding-top: 3px;
 }
 
 </style>
