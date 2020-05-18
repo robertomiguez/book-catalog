@@ -20,5 +20,11 @@ exports[`Card regression test 1`] = `
   >
     blah
   </div>
+   
+  <div
+    class="field1"
+  >
+    first field
+  </div>
 </div>
 `;

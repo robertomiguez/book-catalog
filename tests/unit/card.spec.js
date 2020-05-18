@@ -8,7 +8,8 @@ beforeEach(() => {
     propsData: { 
       title: `card title`, 
       img: `img.jpg`,
-      description: `blah` 
+      description: `blah`, 
+      field1: `first field` 
     },
     mocks: {},
     stubs: {},
@@ -28,6 +29,8 @@ describe(`Card`, () => {
       .toBe(`img.jpg`)
     expect(wrapper.find(`.description`).text())
       .toBe(`blah`)
+    expect(wrapper.find(`.field1`).text())
+      .toBe(`first field`)
   })
 
   test(`regression test`, () => {
